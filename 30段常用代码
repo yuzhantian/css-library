@@ -1,0 +1,6 @@
+# 30段常用代码
+## 1、清除浮动
+    .clearfix:before, .container:after{ content: ""; display: table; }
+    .clearfix:after { clear: both; }
+    /*IE 6/7/*/
+    .clearfix { zoom: 1; }
