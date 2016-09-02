@@ -1,0 +1,8 @@
+/* 字体相关设置 */
+@charset:"utf-8";
+@font-face {
+  font-family: alexis;
+  src: url('fonts/Alexis_Italic.ttf') format('truetype');
+}
+/*使用*/
+.font-alexis{ font-family: alexis;}
