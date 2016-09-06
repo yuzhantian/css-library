@@ -38,8 +38,7 @@ div{
 ## 3、用css画图 ##
 ### 3.1、三角形 ###
 原理：利用相邻两个边框的接壤处分配原则
-<div style="border-top:30px solid blue; border-right:30px solid black;border-bottom:30px solid red; border-left:30px solid green; width:0px; height:0px;">
-</div>
+![原理](https://github.com/yuzhantian/css-library/raw/master/imgs/border-base.png)
 ```css
 div{
     border-top:30px solid blue;
