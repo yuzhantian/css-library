@@ -49,61 +49,7 @@ div{
     width:0px; height:0px;
 }
 ```
-<style type="text/css">
-.triangle-up {border-bottom: 50px solid #669; width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent;}
-.triangle-right {border-left: 50px solid #669; width: 0; height: 0; border-top: 30px solid transparent; border-bottom: 30px solid transparent;}
-.triangle-down { border-top: 50px solid #669; width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; }
-.triangle-left {border-right: 50px solid #669; width: 0; height: 0; border-top: 30px solid transparent; border-bottom: 30px solid transparent;}
-
-.triangle-left-top{border-left: 30px solid #669;border-top: 30px solid #669; border-right: 30px solid transparent; border-bottom: 30px solid transparent; width: 0; height: 0;}
-.triangle-right-top{border-right: 30px solid #669;border-top: 30px solid #669; border-left: 30px solid transparent; border-bottom: 30px solid transparent; width: 0; height: 0;}
-.triangle-right-bottom{border-right: 30px solid #669;border-bottom: 30px solid #669; border-left: 30px solid transparent; border-top: 30px solid transparent; width: 0; height: 0;}
-.triangle-left-bottom{border-left: 30px solid #669;border-bottom: 30px solid #669; border-right: 30px solid transparent; border-top: 30px solid transparent; width: 0; height: 0;} 
-</style>
-<table>
-    <tr>
-        <td>
-            向上三角形
-            <div class="triangle-up"></div>
-        </td>
-        <td>
-            向右三角形
-            <div style="width: 0; height: 0; border-top: 30px solid transparent; border-bottom: 30px solid transparent; border-left: 50px solid #669;"></div>
-        </td>
-        <td>
-            向下三角形
-            <div style="width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-top: 50px solid #669;"></div>
-        </td>
-        <td>
-            向左三角形
-            <div style="width: 0; height: 0; border-top: 30px solid transparent; border-bottom: 30px solid transparent; border-right: 50px solid #669;"></div>
-        </td>
-        <td rowspan="2">
-            六芒星（向上与向下的结合）
-            <div>
-                <div style="width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-bottom: 50px solid #669;"></div><div style="width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-top: 50px solid #669;transform: translateY(-35px);"></div>
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            左上三角形
-            <div style="border-left: 30px solid #669;border-top: 30px solid #669; border-right: 30px solid transparent; border-bottom: 30px solid transparent; width: 0; height: 0;"></div>
-        </td>
-        <td>
-            右上三角形
-            <div style="border-right: 30px solid #669;border-top: 30px solid #669; border-left: 30px solid transparent; border-bottom: 30px solid transparent; width: 0; height: 0;"></div>
-        </td>
-        <td>
-            右下三角形
-            <div style="border-right: 30px solid #669;border-bottom: 30px solid #669; border-left: 30px solid transparent; border-top: 30px solid transparent; width: 0; height: 0;"></div>
-        </td>
-        <td>
-            左下三角形
-            <div style="border-left: 30px solid #669;border-bottom: 30px solid #669; border-right: 30px solid transparent; border-top: 30px solid transparent; width: 0; height: 0;"></div>
-        </td>
-    </tr>
-</table>
+![三角形](https://github.com/yuzhantian/css-library/raw/master/imgs/border-triangle.png)
 ```css
 .triangle-up {border-bottom: 50px solid #669; width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent;}
 .triangle-right {border-left: 50px solid #669; width: 0; height: 0; border-top: 30px solid transparent; border-bottom: 30px solid transparent;}
@@ -114,4 +60,11 @@ div{
 .triangle-right-top{border-right: 30px solid #669;border-top: 30px solid #669; border-left: 30px solid transparent; border-bottom: 30px solid transparent; width: 0; height: 0;}
 .triangle-right-bottom{border-right: 30px solid #669;border-bottom: 30px solid #669; border-left: 30px solid transparent; border-top: 30px solid transparent; width: 0; height: 0;}
 .triangle-left-bottom{border-left: 30px solid #669;border-bottom: 30px solid #669; border-right: 30px solid transparent; border-top: 30px solid transparent; width: 0; height: 0;}
+```
+```html
+<!-- 六芒星 -->
+<div>
+    <div style="width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-bottom: 50px solid #669;"></div>
+    <div style="width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-top: 50px solid #669;transform: translateY(-35px);"></div>
+</div>
 ```
