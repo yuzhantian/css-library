@@ -37,7 +37,7 @@ div{
 
 ## 3、用css画图 ##
 ### 3.1、三角形 ###
-原理：利用相邻两个边框的接壤处分配原则
+原理：利用相邻两个边框的接壤处分配原则  
 ![原理](https://github.com/yuzhantian/css-library/raw/master/imgs/border-base.png)
 ```css
 div{
@@ -50,20 +50,23 @@ div{
 ```
 ![三角形](https://github.com/yuzhantian/css-library/raw/master/imgs/border-triangle.png)
 ```css
-.triangle-up {border-bottom: 50px solid #669; width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent;}
-.triangle-right {border-left: 50px solid #669; width: 0; height: 0; border-top: 30px solid transparent; border-bottom: 30px solid transparent;}
-.triangle-down { border-top: 50px solid #669; width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; }
-.triangle-left {border-right: 50px solid #669; width: 0; height: 0; border-top: 30px solid transparent; border-bottom: 30px solid transparent;}
+.triangle-up {border-bottom: 50px solid #00545b; width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent;}
+.triangle-right {border-left: 50px solid #00545b; width: 0; height: 0; border-top: 30px solid transparent; border-bottom: 30px solid transparent;}
+.triangle-down { border-top: 50px solid #00545b; width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; }
+.triangle-left {border-right: 50px solid #00545b; width: 0; height: 0; border-top: 30px solid transparent; border-bottom: 30px solid transparent;}
 
-.triangle-left-top{border-left: 30px solid #669;border-top: 30px solid #669; border-right: 30px solid transparent; border-bottom: 30px solid transparent; width: 0; height: 0;}
-.triangle-right-top{border-right: 30px solid #669;border-top: 30px solid #669; border-left: 30px solid transparent; border-bottom: 30px solid transparent; width: 0; height: 0;}
-.triangle-right-bottom{border-right: 30px solid #669;border-bottom: 30px solid #669; border-left: 30px solid transparent; border-top: 30px solid transparent; width: 0; height: 0;}
-.triangle-left-bottom{border-left: 30px solid #669;border-bottom: 30px solid #669; border-right: 30px solid transparent; border-top: 30px solid transparent; width: 0; height: 0;}
+.triangle-left-top{border-left: 30px solid #00545b;border-top: 30px solid #00545b; border-right: 30px solid transparent; border-bottom: 30px solid transparent; width: 0; height: 0;}
+.triangle-right-top{border-right: 30px solid #00545b;border-top: 30px solid #00545b; border-left: 30px solid transparent; border-bottom: 30px solid transparent; width: 0; height: 0;}
+.triangle-right-bottom{border-right: 30px solid #00545b;border-bottom: 30px solid #00545b; border-left: 30px solid transparent; border-top: 30px solid transparent; width: 0; height: 0;}
+.triangle-left-bottom{border-left: 30px solid #00545b;border-bottom: 30px solid #00545b; border-right: 30px solid transparent; border-top: 30px solid transparent; width: 0; height: 0;}
 ```
 ```html
 <!-- 六芒星 -->
 <div>
-    <div style="width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-bottom: 50px solid #669;"></div>
-    <div style="width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-top: 50px solid #669;transform: translateY(-35px);"></div>
+    <div style="width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-bottom: 50px solid #00545b;"></div>
+    <div style="width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-top: 50px solid #00545b;transform: translateY(-35px);"></div>
 </div>
 ```
+### 圆形 ###
+效果如下，代码详见[demo.css](https://github.com/yuzhantian/css-library/raw/master/border/demo.css)文件
+![圆形](https://github.com/yuzhantian/css-library/raw/master/imgs/border-circle.png)

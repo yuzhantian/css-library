@@ -1,0 +1,113 @@
+@charset:"utf-8";
+div{
+  margin: 20px;
+  float: left;
+}
+/*圆*/
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #00545b;
+}
+/*同心圆--圆环*/
+.circle-circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 20px solid #00545b;
+  background-color: #fff;
+}
+/*上半圆*/
+.circle-up{
+  width: 100px;
+  height: 50px;
+  background-color: #00545b;
+  border-radius: 50px 50px 0 0;
+}
+/*右半圆*/
+.circle-right{
+  width: 50px;
+  height: 100px;
+  background-color: #00545b;
+  border-radius: 0 50px 50px 0;
+}
+/*下半圆*/
+.circle-bottom{
+  width: 100px;
+  height: 50px;
+  background-color: #00545b;
+  border-radius: 0 0 50px 50px;
+}
+/*左半圆*/
+.circle-left{
+  width: 50px;
+  height: 100px;
+  background-color: #00545b;
+  border-radius: 50px 0 0 50px;
+}
+/*四分之一圆*/
+.circle-top-left{
+  width: 50px;
+  height: 50px;
+  background-color: #00545b;
+  border-top-left-radius: 50px;
+}
+.circle-top-right{
+  width: 50px;
+  height: 50px;
+  background-color: #00545b;
+  border-top-right-radius: 50px;
+}
+.circle-bottom-right{
+  width: 50px;
+  height: 50px;
+  background-color: #00545b;
+  border-bottom-right-radius: 50px;
+}
+.circle-bottom-left{
+  width: 50px;
+  height: 50px;
+  background-color: #00545b;
+  border-bottom-left-radius: 50px;
+}
+/*眉毛形状*/
+.eyebrow-top-left{
+  width: 80px;
+  height: 80px;
+  border-top-left-radius: 80px;
+  border-top: 20px solid #00545b;
+}
+.eyebrow-top-right{
+  width: 80px;
+  height: 80px;
+  border-top-right-radius: 80px;
+  border-top: 20px solid #00545b;
+}
+/*提示框*/
+.tips{
+  position: relative;
+  color: #fff;
+  width: 200px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: #00545b;
+  padding: 10px;
+}
+.tips:after{
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-bottom-right-radius: 80px;
+  border-right: 25px solid #00545b;
+  display: block;
+  top: 90px;
+  margin-left: -10px;
+}
+.tips-empty{
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  border: 2px solid #00545b;
+}
