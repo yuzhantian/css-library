@@ -68,5 +68,5 @@ div{
 </div>
 ```
 ### 圆形 ###
-效果如下，代码详见[demo.css](https://github.com/yuzhantian/css-library/raw/master/border/demo.css)文件
+效果如下，代码详见[demo.css](https://github.com/yuzhantian/css-library/blob/master/border/demo.css)文件
 ![圆形](https://github.com/yuzhantian/css-library/raw/master/imgs/border-circle.png)
