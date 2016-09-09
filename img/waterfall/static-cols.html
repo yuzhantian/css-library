@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>固定列瀑布流</title>
+  <style type="text/css">
+    img { max-width: 100%; width: 100%; }
+    .clearfix:before, .clearfix:after{ content: ""; display: table; }
+    .clearfix:after { clear: both; }
+    .container { width: 80%; margin: 20px auto; }
+    .img-col { width: 33.33%; float: left;}
+    .img-box { padding: 10px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="img-col">
+      <div class="img-box"><img src="1.jpg" alt=""></div>
+      <div class="img-box"><img src="4.jpg" alt=""></div>
+      <div class="img-box"><img src="3.jpg" alt=""></div>
+    </div>
+    <div class="img-col">
+      <div class="img-box"><img src="2.jpg" alt=""></div>
+      <div class="img-box"><img src="1.jpg" alt=""></div>
+      <div class="img-box"><img src="4.jpg" alt=""></div>
+    </div>
+    <div class="img-col">
+      <div class="img-box"><img src="3.jpg" alt=""></div>
+      <div class="img-box"><img src="2.jpg" alt=""></div>
+      <div class="img-box"><img src="1.jpg" alt=""></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      
+    })
+  </script>
+</body>
+</html>
