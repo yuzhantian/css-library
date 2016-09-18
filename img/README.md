@@ -17,3 +17,5 @@ div.polaroid{width: 200px; text-align: center; padding: 10px; border: 1px solid 
   filter: gray;/* IE6~9 */
 }
 ```
+## 3、固定列瀑布流 ##
+![效果](https://github.com/yuzhantian/css-library/raw/master/library-imgs/img-waterfall.png)

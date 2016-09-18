@@ -1,0 +1,18 @@
+@charset:"utf-8";
+div{
+  margin: 20px;
+  float: left;
+}
+/*蘑菇，通过background-image叠加实现，使用渐变*/
+.mushroom{
+  width: 170px;
+  height: 140px;
+  background-image:
+    radial-gradient(circle at 50% 120%, rgba(0,0,0,0.7) 23%, rgba(0,0,0,0) 48%),
+    linear-gradient(30deg, rgba(0,0,0,0.4) 10%, rgba(0,0,0,0) 20%),
+    radial-gradient(circle at 50% 33%, #f8f6f7 32%, rgba(255,255,255,0) 32%),
+    radial-gradient(circle at -13% 55%, #f8f6f7 20%, rgba(255,255,255,0) 20%),
+    radial-gradient(circle at 113% 55%, #f8f6f7 20%, rgba(255,255,255,0) 20%),
+    linear-gradient(to bottom, #ef0015 20%, #b2000c 100%);
+  border-radius: 140px 140px 80px 80px;
+}

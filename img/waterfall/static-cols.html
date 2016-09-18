@@ -33,7 +33,34 @@
   <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
   <script type="text/javascript">
     $(function(){
-      
+      //url data function dataType
+      function loadMeinv(){
+        var data = 0;
+        for(var i=0;i<4;i++){//每次加载时模拟随机加载图片
+          data = parseInt(Math.random()*4)+1;
+          var html = "";
+          html = '<div class="img-box"><img src='+data+'.jpg><p>src='+data+'.jpg</p></div>';
+          $minUl = getMinUl();
+          $minUl.append(html);
+        }
+      }
+      $(window).on("scroll",function(){
+        $minUl = getMinUl();
+        if($minUl.height() <= $(window).scrollTop()+$(window).height()){
+        //当最短的ul的高度比窗口滚出去的高度+浏览器高度大时加载新图片
+          loadMeinv();
+        }
+      })
+      function getMinUl(){//每次获取最短的ul,将图片放到其后
+        var $arrUl = $(".container .img-col");
+        var $minUl =$arrUl.eq(0);
+        $arrUl.each(function(index,elem){
+          if($(elem).height()<$minUl.height()){
+            $minUl = $(elem);
+          }
+        });
+        return $minUl;
+      }
     })
   </script>
 </body>
