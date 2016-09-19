@@ -68,9 +68,9 @@ div{
 </div>
 ```
 ### 3.2、圆形 ###
-效果如下，代码详见[demo.css](https://github.com/yuzhantian/css-library/blob/master/border/demo.css)
+效果如下，代码详见[demo.css](https://github.com/yuzhantian/css-library/blob/master/border/demo.css)  
 ![圆形](https://github.com/yuzhantian/css-library/raw/master/library-imgs/border-circle.png)
 
 ## 4、页面左上角卷角效果 ##
-效果如下，代码详见[left-triangle.html](https://github.com/yuzhantian/css-library/blob/master/border/left-triangle.html)
+效果如下，代码详见[left-triangle.html](https://github.com/yuzhantian/css-library/blob/master/border/left-triangle.html)  
 ![左上角卷角效果](https://github.com/yuzhantian/css-library/raw/master/library-imgs/border-left-triangle.png)
