@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>最上角卷角效果</title>
+  <style type="text/css">
+    body{background-color: #262722;}
+    .container{
+      position: relative;
+      width: 500px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 60px 10px 10px;
+    }
+    .container:before{
+      position: absolute;
+      margin-top: -60px;
+      margin-left: -10px;
+      content:'';
+      border-bottom: 60px solid transparent;
+      border-left: 60px solid #262722;
+    }
+    .container:after{
+      position: absolute;
+      top: 0;
+      left: 0;
+      content:'';
+      border-top: 60px solid transparent;
+      border-right: 60px solid #eee;
+      box-shadow: 5px 5px 5px #bebebe;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>文章标题</h1>
+    <p>文章内容</p>
+  </div>
+</body>
+</html>
